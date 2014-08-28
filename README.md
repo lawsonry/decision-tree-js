@@ -1,21 +1,19 @@
-decision-tree-js
+Decision Tree JS
 ================
 
 Small JavaScript implementation of algorithm for training [Decision Tree](http://en.wikipedia.org/wiki/Decision_tree) and [Random Forest](http://en.wikipedia.org/wiki/Random_forest) classifiers.
 
-###Random forest demo###
+This project is made possible by the ID3 implementation efforts of lagodiuk (whom I've forked this project from). 
 
-Online demo: http://fiddle.jshell.net/7WsMf/show/light/
+### Purpose ###
 
-![Random forest demo](https://raw.github.com/lagodiuk/decision-tree-js/master/random-forest-demo/demo_2d.png)
+This project extends the original decision tree generation algorithm by providing a results-oriented forecasting prediction model. Data is inputted by hand as a method of the cleaning/preparation component of the data mining workflow and then processed with extra elements on top of simple prediction. 
 
-###Decision tree demo###
+### Methodology ###
 
-Online demo: http://fiddle.jshell.net/92Jxj/show/light/
+A set of student data `S1` is given to the model as training data. Follow-on data in a set `S2` is presented and then predictions of `S2` are created from the trained model using `S1`. Individual predictions are made and then an aggregate model accuracy is provided. (under construction)
 
-![Decision tree demo](https://raw.github.com/lagodiuk/decision-tree-js/master/decision-tree-demo/demo_2d.png)
-
-###Toy example of usage###
+###Example of usage###
 Predicting sex of characters from 'The Simpsons' cartoon, using such features as weight, hair length and age
 
 Online demo: http://jsfiddle.net/xur98/
